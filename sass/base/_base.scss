@@ -1,0 +1,48 @@
+@use '../abstract/variables' as vars;
+@use '../abstract/mixins';
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+   text-decoration: none;
+   text-transform: uppercase;
+   transition: all .2s linear;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   background: vars.$dark;
+}
+
+ul {
+   list-style: none;
+}
+
+section {
+   padding: 2rem 4%;
+}
+
+@include mixins.media-lg {
+   html {
+      font-size: 55%;
+   }
+
+   section {
+      padding: 2rem;
+   }
+}
+
+@include mixins.media-sm {
+   html {
+      font-size: 50%;
+   }
+}
