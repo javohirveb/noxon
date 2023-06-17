@@ -118,6 +118,7 @@
 
    &__more {
       height: calc(100vh - 70.8px);
+
       .content {
          width: 60%;
          margin-top: 50px;
@@ -641,7 +642,7 @@
       color: #fff;
    }
 
-   &__pragraph {
+   &__paragraph {
       color: #fff;
       font-weight: 600;
       margin-left: 40px;
@@ -790,6 +791,25 @@
       &__outline {
          display: none;
       }
+
+      &__bg {
+         position: absolute;
+         right: 0%;
+         top: 0%;
+         height: 100%;
+         left: 0;
+         width: 100% !important;
+         z-index: -1;
+      }
+
+      &__more {
+         height: calc(100vh - 70.8px);
+
+         .content {
+            width: 90%;
+            margin-top: 50px;
+         }
+      }
    }
 
    .info {
@@ -914,6 +934,100 @@
                }
             }
          }
+      }
+   }
+
+   .who {
+      flex-direction: column;
+
+      &>img {
+         width: 100%;
+      }
+
+      &__content {
+         h2 {
+            font-size: 23px;
+         }
+
+         p {
+            font-size: 15px;
+         }
+      }
+
+      &__paragraph {
+         font-size: 15px;
+      }
+   }
+
+   .bro {
+      &__item {
+         height: 650px;
+
+         img {
+            position: absolute;
+            height: auto;
+            width: 90%;
+            bottom: 0;
+         }
+
+         p {
+            color: #fff;
+            margin-left: 0px;
+            font-size: 15px;
+         }
+
+         h4 {
+            left: 10%;
+            bottom: -12%;
+         }
+
+         &:last-child {
+            p {
+               margin-left: 0;
+               margin-right: 0px;
+            }
+
+            img {
+               right: 5%;
+            }
+
+            h4 {
+               left: 10%;
+            }
+         }
+      }
+   }
+
+   .community {
+      margin-top: 70px;
+
+      &__list {
+         flex-direction: column;
+         gap: 90px;
+      }
+
+      &__item {
+         width: 90%;
+
+         h1 {
+            font-size: 23px;
+            margin-top: 20px;
+         }
+
+         p {
+            margin-left: 150px;
+            margin-top: 20px;
+            position: relative;
+            font-size: 16px;
+         }
+      }
+   }
+
+   .hamkor {
+      &__list {
+         flex-direction: column;
+         align-items: center;
+         gap: 40px;
       }
    }
 }
