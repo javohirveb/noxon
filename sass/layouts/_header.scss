@@ -18,9 +18,22 @@
          column-gap: 50px;
       }
 
+      &-item:last-child &-link {
+         border: 2px solid #fff;
+         color: #fff;
+         border-radius: 30px;
+         background: linear-gradient(to bottom,  vars.$main-color, transparent, transparent, transparent, transparent);
+         background-size: auto 500%;
+
+         &:hover {
+            background-position:  right center;
+         }
+      }
+
       &-link {
          color: #fff;
          font-size: 20px;
+         padding: 2px 10px;
 
          &:hover {
             color: vars.$main-color;
@@ -32,7 +45,7 @@
    &__social {
       &-list {
          display: flex;
-         column-gap: 30px;
+         column-gap: 10px;
       }
 
       &-link {
@@ -153,7 +166,9 @@
 
    .fixed-navbar {
       display: flex;
-      .header-navbar, .header__social-list {
+
+      .header-navbar,
+      .header__social-list {
          display: flex;
       }
    }
