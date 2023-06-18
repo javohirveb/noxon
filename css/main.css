@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -221,6 +221,7 @@ section {
   position: absolute;
   right: 10%;
   top: 0;
+  width: 1000px !important;
   z-index: -1;
 }
 .home__link {
@@ -1030,17 +1031,19 @@ section {
     gap: 90px;
   }
   .community__item {
-    width: 90%;
+    width: 95%;
+    padding: 0;
   }
   .community__item h1 {
-    font-size: 23px;
-    margin-top: 20px;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-right: 10px;
   }
   .community__item p {
-    margin-left: 150px;
+    margin-left: 130px;
     margin-top: 20px;
     position: relative;
-    font-size: 16px;
+    font-size: 15px;
   }
   .hamkor__list {
     flex-direction: column;
