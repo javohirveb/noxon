@@ -3,3 +3,21 @@
 @use 'header';
 @use 'footer';
 @use 'container';
+
+
+.logo-absolute {
+   position: absolute;
+   width: 200px !important;
+   top: 65%;
+   right: 5%;
+}
+
+.line {
+   position: absolute;
+   width: 90%;
+   height: 2px;
+   top: 86%;
+   left: 5%;
+   right: 5%;
+   background: #fff;
+}

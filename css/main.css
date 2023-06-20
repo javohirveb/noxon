@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -57,7 +58,7 @@ section {
   border: 2px solid #fff;
   color: #fff;
   border-radius: 30px;
-  background: linear-gradient(to bottom, #784def, transparent, transparent, transparent, transparent);
+  background: linear-gradient(to bottom, #4525a1, transparent, transparent, transparent, transparent);
   background-size: auto 500%;
 }
 .header__navbar-item:last-child .header__navbar-link:hover {
@@ -69,7 +70,7 @@ section {
   padding: 2px 10px;
 }
 .header__navbar-link:hover {
-  color: #784def;
+  color: #4525a1;
 }
 .header__social-list {
   display: flex;
@@ -80,7 +81,7 @@ section {
   font-size: 20px;
 }
 .header__social-link:hover {
-  color: #784def;
+  color: #4525a1;
 }
 
 .border-bottom {
@@ -211,6 +212,23 @@ section {
     width: 1100px;
   }
 }
+.logo-absolute {
+  position: absolute;
+  width: 200px !important;
+  top: 65%;
+  right: 5%;
+}
+
+.line {
+  position: absolute;
+  width: 90%;
+  height: 2px;
+  top: 86%;
+  left: 5%;
+  right: 5%;
+  background: #fff;
+}
+
 .home {
   display: flex;
   gap: 10px;
@@ -235,7 +253,7 @@ section {
   border: 2px solid #fff;
   color: #fff;
   border-radius: 30px;
-  background: linear-gradient(to bottom, transparent, transparent, transparent, #784def, transparent, transparent);
+  background: linear-gradient(to bottom, transparent, transparent, transparent, #4525a1, transparent, transparent);
   background-size: auto 500%;
   cursor: pointer;
 }
@@ -277,7 +295,7 @@ section {
 .home__info-box {
   width: 30%;
   padding: 15px;
-  border: 3px solid #784def;
+  border: 3px solid #4525a1;
   border-radius: 17px;
 }
 .home__info-box h1 {
@@ -297,7 +315,7 @@ section {
   left: -22px;
   height: 2px;
   width: 20px;
-  background: #784def;
+  background: #4525a1;
 }
 .home > img {
   width: 42%;
@@ -330,7 +348,7 @@ section {
   margin-top: 20px;
   padding: 30px;
   border-radius: 12px;
-  border: 2px solid #784def;
+  border: 2px solid #4525a1;
   background: #121212;
 }
 .info__content h1 {
@@ -338,7 +356,7 @@ section {
   color: #fff;
 }
 .info__content h1 span {
-  color: #784def;
+  color: #4525a1;
 }
 .info__content p {
   margin-top: 20px;
@@ -348,7 +366,7 @@ section {
 }
 
 .price__subtitle {
-  color: #784def;
+  color: #4525a1;
   font-size: 16px;
   text-align: center;
 }
@@ -366,7 +384,7 @@ section {
   left: 50%;
   height: 3px;
   width: 10%;
-  background: #784def;
+  background: #4525a1;
   transform: translateX(-50%);
 }
 .price__list {
@@ -384,7 +402,7 @@ section {
   text-align: center;
 }
 .price__item:hover {
-  background: #784def;
+  background: #4525a1;
   color: #fff;
 }
 .price__item:hover a {
@@ -413,7 +431,7 @@ section {
   font-weight: 700;
   padding: 12px 24px;
   border-radius: 30px;
-  background: #784def;
+  background: #4525a1;
 }
 .price__item a:hover {
   transform: scale(1.05);
@@ -423,7 +441,7 @@ section {
   position: absolute;
   width: 250px;
   height: 250px;
-  background: #784def;
+  background: #4525a1;
   border-radius: 50%;
   filter: blur(90px);
   z-index: -10;
@@ -537,7 +555,7 @@ section {
   border: 2px solid #fff;
   color: #fff;
   border-radius: 30px;
-  background: linear-gradient(to bottom, #784def, transparent, transparent, transparent);
+  background: linear-gradient(to bottom, #4525a1, transparent, transparent, transparent);
   background-size: auto 500%;
 }
 .services__link a:hover {
@@ -567,7 +585,7 @@ section {
 .discord__members {
   padding: 20px 60px 20px 140px;
   color: #fff;
-  background: #784def;
+  background: #4525a1;
   display: inline-block;
   border-radius: 90px;
   border-top-left-radius: 0;
@@ -601,7 +619,7 @@ section {
   width: 90%;
   border-radius: 30px;
   text-align: right;
-  background: linear-gradient(to bottom, #784def, #492266);
+  background: linear-gradient(to bottom, #4525a1, #492266);
 }
 .team__item img {
   position: absolute;
@@ -658,11 +676,11 @@ section {
   top: 12px;
   width: 40px;
   height: 4px;
-  background: #784def;
+  background: #4525a1;
 }
 .result__item:hover {
   background: transparent;
-  border: 2px solid #784def;
+  border: 2px solid #4525a1;
 }
 
 .connect {
@@ -729,7 +747,7 @@ section {
   margin-left: 10px;
 }
 .connect__form .home__link button {
-  border: 2px solid #784def;
+  border: 2px solid #4525a1;
   position: relative;
   padding-right: 60px;
 }
@@ -737,7 +755,7 @@ section {
   position: absolute;
   right: 0px;
   top: 0;
-  background: #784def;
+  background: #4525a1;
   width: 40px;
   height: 100%;
   border-radius: 30px;
@@ -846,7 +864,7 @@ section {
   top: 0;
   height: 100%;
   width: 3px;
-  background: #784def;
+  background: #4525a1;
 }
 
 .hamkor {
@@ -967,7 +985,7 @@ section {
     margin-left: 10px;
   }
   .connect__form .home__link a {
-    border: 2px solid #784def;
+    border: 2px solid #4525a1;
     position: relative;
     padding-right: 60px;
   }
@@ -975,7 +993,7 @@ section {
     position: absolute;
     right: 0px;
     top: 0;
-    background: #784def;
+    background: #4525a1;
     width: 40px;
     height: 100%;
     border-radius: 30px;
