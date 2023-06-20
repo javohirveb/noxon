@@ -578,6 +578,7 @@ section {
   color: #fff;
   font-weight: 600;
   display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .discord__title-bg {
   background: rgba(0, 0, 0, 0.4745098039);
