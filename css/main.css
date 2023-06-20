@@ -909,7 +909,10 @@ section {
     gap: 30px;
   }
   .price__item {
-    width: 80%;
+    width: 90%;
+  }
+  .price__item a {
+    font-size: 14px;
   }
   .shape {
     width: 150px;
@@ -1088,7 +1091,7 @@ section {
     font-size: 30px;
   }
   .team__item img {
-    width: 170px;
+    width: 150px;
   }
   .team__item h1 {
     font-size: 20px;
