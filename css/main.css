@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
-
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -229,6 +228,12 @@ section {
   background: #fff;
 }
 
+@media screen and (max-width: 768px) {
+  .logo-absolute {
+    width: 100px !important;
+    top: 70%;
+  }
+}
 .home {
   display: flex;
   gap: 10px;

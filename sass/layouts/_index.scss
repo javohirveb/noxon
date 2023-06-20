@@ -21,3 +21,10 @@
    right: 5%;
    background: #fff;
 }
+
+@include mixins.media-md {
+   .logo-absolute {
+      width: 100px !important;
+      top: 70%;
+   }
+}
